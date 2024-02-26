@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+header{
+    width: 100%;
+}
+
+nav{
+    background: black;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100px;
+}
+
+nav h2{
+    color: white;
+    font-size: 1rem;
+    letter-spacing: 5px;
+    line-height: 15px;
+
+}
+
+.nav_telefone{
+    color: white;
+    display: flex;
+    align-items: center;
+    border-left: 1px solid white;
+    padding-left: 20px;
+}
+
+.nav_entreemcontato{
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    padding-block: 5px;
+    padding-inline: 15px;
+    margin-left: 20px;
+}
+
+.nav_entreemcontato:hover{
+    background: white;
+    color: black;
+    transition: all .2s;
+}
+
+main{
+   background-image: url('../img/praia_residencia.jpg');
+   background-size: cover;
+   background-position: center;
+}
+
+.main_wrapper{
+    background-color: rgba(0,0,0,0.6);
+    width: 25%;
+    padding-block: 20px;
+    padding-inline: 30px; 
+    color: white;  
+    margin-left: 20%;     
+}
+
+[data-anime]{
+    opacity: 0;
+    transition: all 1s;
+}
+
+[data-anime ="down"]{
+    transform: translate3d(0, -100%, 0);
+}
+
+
+[data-anime ="up"]{
+    transform: translate3d(0, 100%, 0);
+}
+
+
+[data-anime ="left"]{
+    transform: translate3d(-100%, 0, 0);
+}
+
+
+[data-anime ="right"]{
+    transform: translate3d(100%, 0, 0);
+}
+
+[data-anime].animate {
+    opacity: 1;
+    transform: translate3d(0,0,0);
+}
+
+
+.main_wrapper h2{
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.main_wrapper h3{
+    text-transform: capitalize;
+}
+
+.container_button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_button{
+    background-color: yellow;
+    color: black;
+    padding: 20px;
+    border-radius: 16px;
+    margin: 0 auto;
+    text-align: center;
+    align-self: center;
+    text-decoration: none;
+}
+
+.main_container{
+    padding-bottom: 20px;
+}
+
+.main_container p{
+    padding-bottom: 20px;
+}
+
+.apresentacao{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: start;
+    padding-top: 100px;
+    justify-content: space-evenly;
+}
+
+.apresentacao h2{
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.apresentacao_container{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.hidden{
+    opacity: 0;
+    filter: blur(15px);
+    /* transform: translateX(-100%); */
+    transition: all 2s;  
+}
+
+.show{
+    opacity: 1;
+    filter: blur(0);
+    /* transform: translateX(0); */
+    transition: all 1.75s;
+}
+
+.hiddenDois{
+    opacity: 5;
+    filter: blur(15px);
+    transform: translateX(150%);
+    transition: all 2s;  
+}
+
+.showDois{
+    opacity: 1;
+    filter: blur(0px);
+    transform: translateX(0%);
+    transition: all 2s;  
+}
+
+.apresentacao_container img{
+    width: 100%;  
+}
+
+.apresentacao_container p{
+    text-align: justify;
+}
+
+.mais_conteudo{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: start;
+    padding-top: 100px;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+}
+
+
+.mais_conteudo_container{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.75rem;
+    font-weight: 600; 
+    background-image: url('../img/predios.webp');
+    background-size: cover;
+    background-position: center;  
+    color: white;
+}
+
+
+.mais_conteudo a{
+ font-size: 1rem;
+ margin-top: 50px;
+}
+
+.mais_conteudo a:hover{
+    background-color: black;
+    color: yellow;
+    transition: .2s ease;
+}
+
+.main_container_texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+footer{
+    background: black;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100px;
+}
+
+footer h2{
+    color: white;
+    font-size: 1.5rem;
+    letter-spacing: 5px;
+    line-height: 22px;
+}
+
+footer hr{
+    color: white;
+    margin-top: 10px;
+}
+
+footer i{
+    color: white;
+    font-size: 1.5rem;
+    margin-left: 10px;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
