@@ -438,6 +438,9 @@ footer a{
     }
 }
 
+
+
+
 @media (max-width: 830px){
     .nav_telefone{
         display: none;
@@ -483,7 +486,7 @@ footer a{
     }
 
     .slider{
-        width: 400px;  
+        width: 500px;  
     }
     
     .content{
@@ -491,7 +494,7 @@ footer a{
     }
     
     .content img{
-        width: 400px;
+        width: 500px;
     }
 
     .mais_conteudo{
@@ -527,7 +530,9 @@ footer a{
     
 }
 
-@media (max-width:340px){
+
+
+@media (max-width:360px){
     .slider{
         width: 300px;  
     }
