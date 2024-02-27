@@ -188,8 +188,11 @@ form h2{
     text-align: center;
     align-self: center;
     text-decoration: none;
-    font-weight: 600;
-    
+    font-weight: 600;    
+}
+
+.button{
+    margin-top: -36px; 
 }
 
 .main_button:hover{
@@ -238,6 +241,96 @@ form h2{
 .apresentacao_container p{
     text-align: justify;
 }
+
+
+.depoimentos{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.slider{
+    margin: 0 auto;
+    overflow-x: hidden;
+    width: 500px;
+    border-radius: 20px;
+    scroll-behavior: smooth;
+   
+}
+
+.content{
+    display: flex;
+    width: fit-content;/*PRESEVA A LARGURA DAS IMAGENS CHILDS*/
+    position: relative;
+    
+}
+
+.content img{
+    width: 500px;
+    height: 480px;
+    object-fit: cover;
+}
+
+#previousSlide{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    background-color: #217da1;
+    color: whitesmoke;
+    cursor: pointer;
+    position: absolute;
+    bottom: 10px;   
+}
+
+#nextSlide{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    background-color: #217da1;
+    color: whitesmoke;
+    cursor: pointer; 
+    position: absolute;
+    bottom: 10px;
+    left: 80px;
+ 
+}
+
+#previousSlide:hover{
+    background-color: #063a4e;
+    transition: all .2s ease;  
+}
+
+#nextSlide:hover{
+    background-color: #063a4e;
+    transition: all .2s ease;  
+}
+
+
+.length-dots{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 100%);
+    display: flex;
+    gap: 10px;
+}
+
+.dot{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ccc;
+}
+
+.dot.current{
+    background: #222;
+}
+
 
 .mais_conteudo{
     width: 100%;
@@ -321,6 +414,38 @@ footer a{
     color: white;
 }
 
+
+/****************************************MEDIA QUERIES***********************************************/
+@media (max-width: 1275px){
+    .slider{
+        margin: 0 auto;
+        overflow-x: hidden;
+        width: 450px;
+        border-radius: 20px;
+        scroll-behavior: smooth;
+    }
+    
+    .content{ 
+        width: 450px;
+    }
+    
+    .content img{
+        width: 450pxpx;    
+    }
+}
+
+@media (max-width:1201px){
+
+    .apresentacao{
+        width: 100%;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        padding-top: 50px;
+        justify-content: center;
+        gap: 50px;
+    }
+}
 
 
 @media (max-width: 1000px){

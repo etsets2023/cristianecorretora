@@ -1,3 +1,4 @@
+
 //SCROLL ESQUERDA PRA DIREITA//
 const myObserver = new IntersectionObserver ((entries) => {
     // console.log(entries)
@@ -13,8 +14,9 @@ const myObserver = new IntersectionObserver ((entries) => {
 const elements = document.querySelectorAll('.hidden')
 elements.forEach((element) => myObserver.observe(element))
 
-const item = document.querySelectorAll('[data-anime');
 
+//DATA ANIME PARA MAIS ELEMENTOS//
+const item = document.querySelectorAll('[data-anime');
 const animeScroll = () => {
     const windowTop = window.pageYOffset + window.innerHeight * 0.85;
     // console.log(windowTop)
@@ -33,6 +35,13 @@ animeScroll()
 window.addEventListener('scroll', () =>{
     animeScroll()
 })
+
+
+
+
+
+
+
 
 
 
