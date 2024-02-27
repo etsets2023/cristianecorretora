@@ -346,7 +346,7 @@ footer a{
     color: white;
 }
 
-@media (max-width: 620px){
+@media (max-width: 360px){
     .nav_telefone{
         display: none;
     }
