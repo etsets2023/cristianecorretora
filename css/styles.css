@@ -520,13 +520,13 @@ footer a{
 
 
 
-@media (max-width:340px){
+@media (max-width:320px){
     .slider{
         width: 300px;  
     }
     
     .content{
-        width: 300px;/*PRESEVA A LARGURA DAS IMAGENS CHILDS*/
+        width: fit-content;/*PRESEVA A LARGURA DAS IMAGENS CHILDS*/
     }
     
     .content img{
