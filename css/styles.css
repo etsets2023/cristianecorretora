@@ -12,12 +12,11 @@
 }
 
 body{
-    font-family: "Poppins", sans-serif;
+    font-family: "Poppins", sans-serif;   
+    overflow-x: hidden;
 }
 
-header{
-    width: 100%;
-}
+
 
 nav{
     background: black;
@@ -25,7 +24,7 @@ nav{
     margin: auto;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     height: 100px;
 }
 
@@ -61,13 +60,13 @@ nav h2{
 }
 
 main{
-   background-image: url('../img/praia_residencia.jpg');
+    background-image: url('../img/praia_residencia.jpg');
    background-size: cover;
    background-position: center;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
    display: flex;
-   gap: -50px;
-   
-   
+   gap: -50px 
 }
 
 .main_wrapper{
@@ -76,7 +75,8 @@ main{
     padding-block: 20px;
     padding-inline: 30px; 
     color: white;  
-    margin-left: 15%;     
+    margin-left: 15%;
+         
 }
 
 form{
