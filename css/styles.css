@@ -244,11 +244,20 @@ form h2{
 
 
 .depoimentos{
+  
+   border-bottom: 1px solid black;
+   padding-top: 1px solid black;
+   padding-bottom: 50px;
     width: 100%;
+    margin: auto;
     display: flex;
     flex-direction: row;
     justify-content: center;
     margin-top: 100px;
+}
+
+.container_depoimentos h2{
+    text-align: center;
 }
 
 .slider{
@@ -256,8 +265,7 @@ form h2{
     overflow-x: hidden;
     width: 500px;
     border-radius: 20px;
-    scroll-behavior: smooth;
-   
+    scroll-behavior: smooth;   
 }
 
 .content{
@@ -269,7 +277,7 @@ form h2{
 
 .content img{
     width: 500px;
-    height: 480px;
+    height: 300px;
     object-fit: cover;
 }
 
@@ -416,60 +424,21 @@ footer a{
 
 
 /****************************************MEDIA QUERIES***********************************************/
-@media (max-width: 1275px){
-    .slider{
-        margin: 0 auto;
-        overflow-x: hidden;
-        width: 450px;
-        border-radius: 20px;
-        scroll-behavior: smooth;
-    }
-    
-    .content{ 
-        width: 450px;
-    }
-    
-    .content img{
-        width: 450pxpx;    
-    }
-}
-
-@media (max-width:1201px){
-
-    .apresentacao{
-        width: 100%;
-        display: flex;
-        flex-flow: column;
-        align-items: center;
-        padding-top: 50px;
-        justify-content: center;
-        gap: 50px;
-    }
-}
-
 
 @media (max-width: 1000px){
     .main_wrapper{
       
         width: 30%;
         padding-block: 20px;
-        padding-inline: 30px; 
-     
-             
+        padding-inline: 30px;         
     }
     
     form{
        
         width: 30%;
-        padding-inline: 30px; 
-        
+        padding-inline: 30px;     
     }
-
-
 }
-
-
-
 
 @media (max-width: 830px){
     .nav_telefone{
