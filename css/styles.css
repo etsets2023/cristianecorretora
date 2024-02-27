@@ -215,14 +215,18 @@ form h2{
     flex-flow: row wrap;
     align-items: start;
     padding-top: 100px;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 .apresentacao h2{
     width: 100%;
     text-align: center;
     font-size: 2rem;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
+}
+
+.swiper h3{
+    text-align: center;
 }
 
 .apresentacao_container{
@@ -232,6 +236,7 @@ form h2{
     align-items: center;
     justify-content: center;
     gap: 50px;
+    margin-right: 10%;
 }
 
 .apresentacao_container img{
@@ -244,98 +249,52 @@ form h2{
 
 
 .depoimentos{
-   border-bottom: 1px solid black;
-   padding-top: 1px solid black;
-   padding-bottom: 50px;
     width: 100%;
     margin: auto;
     display: flex;
-    flex-direction: row;
+    flex-flow: row wrap;
     justify-content: center;
     margin-top: 100px;
 }
 
-.container_depoimentos h2{
+.depoimentos h2{
+    width: 100%;
+    font-size: 2rem;
     text-align: center;
 }
 
-.slider{
-    margin: 0 auto;
-    overflow-x: hidden;
-    width: 600px;
-    border-radius: 20px;
-    scroll-behavior: smooth;   
+.swiper {
+    width: 35%;
+    height: 480px; 
 }
 
-.content{
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
     display: flex;
-    width: fit-content;/*PRESEVA A LARGURA DAS IMAGENS CHILDS*/
-    position: relative;
-    
-}
+    justify-content: center;
+    align-items: center;
+  }
 
-.content img{
-    width: 600px;
-    height: 300px;
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
-}
+  }
 
-#previousSlide{
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    border: none;
-    background-color: #217da1;
-    color: whitesmoke;
-    cursor: pointer;
-    position: absolute;
-    bottom: 10px;   
-}
+  .slide1{
+    background-image: url('../img/pexels-pixabay-237272.jpg');
+  }
 
-#nextSlide{
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    border: none;
-    background-color: #217da1;
-    color: whitesmoke;
-    cursor: pointer; 
-    position: absolute;
-    bottom: 10px;
-    left: 80px;
-}
+  .slide2{
+    background-image: url('../img/pexels-sebastian-arie-voortman-189349.jpg');
+  }
 
-#previousSlide:hover{
-    background-color: #063a4e;
-    transition: all .2s ease;  
-}
-
-#nextSlide:hover{
-    background-color: #063a4e;
-    transition: all .2s ease;  
-}
-
-
-.length-dots{
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translate(-50%, 100%);
-    display: flex;
-    gap: 10px;
-}
-
-.dot{
-    display: inline-block;
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    background-color: #ccc;
-}
-
-.dot.current{
-    background: #222;
-}
+  .slide3{
+    background-image: url('../img/pexels-vincent-gerbouin-1174732.jpg');
+  }
 
 
 .mais_conteudo{
@@ -481,20 +440,15 @@ footer a{
        
     }
 
+    .swiper {
+        width: 80%;
+        height: 480px; 
+    }
+    
+
     .apresentacao_container{
         width: 80%;
-    }
-
-    .slider{
-        width: 380px;  
-    }
-    
-    .content{
-        width: fit-content;/*PRESEVA A LARGURA DAS IMAGENS CHILDS*/
-    }
-    
-    .content img{
-        width: 380px;
+        margin-right: 0;
     }
 
     .mais_conteudo{
