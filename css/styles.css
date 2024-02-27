@@ -537,7 +537,9 @@ footer a{
 
 
 @media (max-width:360px){
-  
+    .container_depoimentos{
+        background-color: white;
+    }
 
  
 }
