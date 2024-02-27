@@ -437,18 +437,6 @@ footer a{
         width: 30%;
         padding-inline: 30px;     
     }
-
-    .slider{
-        width: 500px;  
-    }
-    
-    .content{
-        width: fit-content;/*PRESEVA A LARGURA DAS IMAGENS CHILDS*/
-    }
-    
-    .content img{
-        width: 500px;
-    }
 }
 
 @media (max-width: 830px){
@@ -496,7 +484,7 @@ footer a{
     }
 
     .slider{
-        width: 400px;  
+        width: 300px;  
     }
     
     .content{
@@ -504,7 +492,7 @@ footer a{
     }
     
     .content img{
-        width: 400px;
+        width: 300px;
     }
 
     .mais_conteudo{
