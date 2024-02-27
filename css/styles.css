@@ -441,7 +441,7 @@ footer a{
 
 
 
-@media (max-width: 900px){
+@media (max-width: 830px){
     .nav_telefone{
         display: none;
     }
@@ -486,7 +486,7 @@ footer a{
     }
 
     .slider{
-        width: 300px;  
+        width: 400px;  
     }
     
     .content{
@@ -494,7 +494,7 @@ footer a{
     }
     
     .content img{
-        width: 300px;
+        width: 400px;
     }
 
     .mais_conteudo{
@@ -532,12 +532,10 @@ footer a{
 
 
 
-@media (max-width:320px){
+@media (max-width:360px){
   
 
-    #nextSlide{
-        left: 100px;
-    }
+ 
 }
 
 
