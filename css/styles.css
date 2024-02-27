@@ -376,6 +376,14 @@ footer a{
         align-items: center;
         padding-top: 50px;
         justify-content: center;
+        gap: 50px;
+    }
+
+    .apresentacao h2{
+        width: 90%;
+        font-size: 1.5rem;
+        margin: 0 auto;
+       
     }
 
     .apresentacao_container{
