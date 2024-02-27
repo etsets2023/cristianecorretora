@@ -390,10 +390,9 @@ footer a{
         padding-inline: 30px;         
     }
     
-    form{
-       
+    form{ 
         width: 30%;
-        padding-inline: 30px;     
+        padding-inline: 40px;     
     }
 }
 
@@ -418,9 +417,16 @@ footer a{
     }
 
     form{
-        width: 80%;
+        width: 50%;
         margin-left: 0;
-        margin: 0 auto;
+        margin: 0 auto;  
+    }
+
+    .form_container input{
+        padding: 10px 15px;
+        margin-top: 20px;
+        outline: none;
+        width: 140%;
     }
 
     .apresentacao{
