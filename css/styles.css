@@ -244,7 +244,6 @@ form h2{
 
 
 .depoimentos{
-  
    border-bottom: 1px solid black;
    padding-top: 1px solid black;
    padding-bottom: 50px;
@@ -263,7 +262,7 @@ form h2{
 .slider{
     margin: 0 auto;
     overflow-x: hidden;
-    width: 500px;
+    width: 600px;
     border-radius: 20px;
     scroll-behavior: smooth;   
 }
@@ -276,7 +275,7 @@ form h2{
 }
 
 .content img{
-    width: 500px;
+    width: 600px;
     height: 300px;
     object-fit: cover;
 }
@@ -438,6 +437,18 @@ footer a{
         width: 30%;
         padding-inline: 30px;     
     }
+
+    .slider{
+        width: 500px;  
+    }
+    
+    .content{
+        width: fit-content;/*PRESEVA A LARGURA DAS IMAGENS CHILDS*/
+    }
+    
+    .content img{
+        width: 500px;
+    }
 }
 
 @media (max-width: 830px){
@@ -482,6 +493,18 @@ footer a{
 
     .apresentacao_container{
         width: 80%;
+    }
+
+    .slider{
+        width: 400px;  
+    }
+    
+    .content{
+        width: fit-content;/*PRESEVA A LARGURA DAS IMAGENS CHILDS*/
+    }
+    
+    .content img{
+        width: 400px;
     }
 
     .mais_conteudo{
