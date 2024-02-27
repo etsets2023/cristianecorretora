@@ -303,7 +303,6 @@ form h2{
     position: absolute;
     bottom: 10px;
     left: 80px;
- 
 }
 
 #previousSlide:hover{
@@ -483,18 +482,6 @@ footer a{
         width: 80%;
     }
 
-    .slider{
-        width: 300px;  
-    }
-    
-    .content{
-        width: fit-content;/*PRESEVA A LARGURA DAS IMAGENS CHILDS*/
-    }
-    
-    .content img{
-        width: 300px;
-    }
-
     .mais_conteudo{
         margin-bottom: 10px;
     }
@@ -526,12 +513,24 @@ footer a{
         margin-top: 10px;
     }
     
-   
-    
-   
-    
+}
 
+@media (max-width:360px){
+    .slider{
+        width: 300px;  
+    }
+    
+    .content{
+        width: fit-content;/*PRESEVA A LARGURA DAS IMAGENS CHILDS*/
+    }
+    
+    .content img{
+        width: 300px;
+    }
 
+    #nextSlide{
+        left: 100px;
+    }
 }
 
 
