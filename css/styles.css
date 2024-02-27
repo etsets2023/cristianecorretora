@@ -485,10 +485,6 @@ footer a{
         width: 80%;
     }
 
-    .container_depoimentos{
-        background-color: gray;
-    }
-
     .slider{
         width: 380px;  
     }
@@ -537,9 +533,7 @@ footer a{
 
 
 @media (max-width:360px){
-    .container_depoimentos{
-        background-color: white;
-    }
+    
 
  
 }
