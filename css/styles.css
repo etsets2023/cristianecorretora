@@ -482,6 +482,18 @@ footer a{
         width: 80%;
     }
 
+    .slider{
+        width: 400px;  
+    }
+    
+    .content{
+        width: fit-content;/*PRESEVA A LARGURA DAS IMAGENS CHILDS*/
+    }
+    
+    .content img{
+        width: 400px;
+    }
+
     .mais_conteudo{
         margin-bottom: 10px;
     }
