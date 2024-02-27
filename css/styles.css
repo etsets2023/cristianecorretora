@@ -13,7 +13,6 @@
 
 body{
     font-family: "Poppins", sans-serif;   
-    overflow-x: hidden;
 }
 
 
@@ -65,8 +64,7 @@ main{
    background-position: center;
    background-repeat: no-repeat;
    background-attachment: fixed;
-   display: flex;
-   gap: -50px 
+   display: flex;   
 }
 
 .main_wrapper{
@@ -100,13 +98,23 @@ form h2{
 .form_container{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
 }
 
-.form_container input, textarea{
+.form_container input{
     padding: 10px 15px;
     margin-top: 20px;
     outline: none;
-    width: 280px;
+    width: 130%;
+}
+
+textarea{
+    padding: 10px 15px;
+    margin-top: 20px;
+    outline: none;
+    width: 100%;
 }
 
 .form_container_button{
@@ -153,7 +161,7 @@ form h2{
 
 
 [data-anime ="right"]{
-    transform: translate3d(100%, 0, 0);
+    transform: translate3d(100px, 0, 0);
 }
 
 [data-anime].animate {
@@ -187,6 +195,7 @@ form h2{
     align-self: center;
     text-decoration: none;
     font-weight: 600;
+    margin-top: -36px;
 }
 
 .main_button:hover{
@@ -226,34 +235,6 @@ form h2{
     align-items: center;
     justify-content: center;
     gap: 50px;
-}
-
-.hidden{
-    opacity: 0;
-    filter: blur(15px);
-    /* transform: translateX(-100%); */
-    transition: all 2s;  
-}
-
-.show{
-    opacity: 1;
-    filter: blur(0);
-    /* transform: translateX(0); */
-    transition: all 1.75s;
-}
-
-.hiddenDois{
-    opacity: 5;
-    filter: blur(15px);
-    transform: translateX(150%);
-    transition: all 2s;  
-}
-
-.showDois{
-    opacity: 1;
-    filter: blur(0px);
-    transform: translateX(0%);
-    transition: all 2s;  
 }
 
 .apresentacao_container img{
