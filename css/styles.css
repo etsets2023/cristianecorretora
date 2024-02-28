@@ -13,6 +13,7 @@
 
 body{
     font-family: "Poppins", sans-serif;   
+    scroll-behavior: smooth;
 }
 
 
@@ -317,7 +318,7 @@ form h2{
     font-size: 1.75rem;
     font-weight: 600; 
     color: white;
-    margin-top: 3%;
+    margin-top: 5%;
     
 }
 
