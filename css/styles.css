@@ -331,8 +331,11 @@ form h2{
     font-size: 1.75rem;
     font-weight: 600; 
     color: white;
-    margin-top: 3%;
-    
+    margin-top: 3%; 
+}
+
+.imoveis_container_imovel:hover{
+    box-shadow:  5px 5px 5px black;
 }
 
 video{
