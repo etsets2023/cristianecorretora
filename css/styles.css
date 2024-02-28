@@ -83,6 +83,7 @@ main{
 
 .container_button{
     margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 form{
@@ -420,7 +421,7 @@ footer a{
 
 
 @media (max-width: 830px){
-    .nav_telefone{
+    .nav_entreemcontato{
         display: none;
     }
 
@@ -511,8 +512,10 @@ footer a{
 
 
 
-@media (max-width:360px){
-    
+@media (max-width:485px){
+    .nav_telefone{
+        display: none;
+    }
 
  
 }
