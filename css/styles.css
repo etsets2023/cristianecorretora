@@ -335,7 +335,8 @@ form h2{
 }
 
 .imoveis_container_imovel:hover{
-    box-shadow:  5px 5px 5px black;
+    box-shadow:  5px 5px 5px 5px gray;
+    transition: all .2s ease;
 }
 
 video{
