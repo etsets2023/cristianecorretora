@@ -317,7 +317,7 @@ form h2{
 }
 
 .imoveis_container_imovel{
-    width: 340px;
+    width: 300px;
     display: flex;
     flex-direction: column;
     justify-content: start;
