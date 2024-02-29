@@ -458,6 +458,10 @@ video{
     margin-bottom: 15px;
 }
 
+.dependentes{
+    margin-bottom: 15px;
+}
+
 .data_de_nascimento input{
     padding: 8px;
     outline: none;

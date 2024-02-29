@@ -343,7 +343,7 @@
     
         <h2 style="text-align: center;">Faça agora uma simulação gratuita!</h2>
         <h3 style="margin-bottom: 30px; text-align: center;">Preencha o Formulário abaixo:</h3>
-        <form class="simulacao_formulario" action="https://formsubmit.co/ela.tavares2020@gmail.com"  method="POST" class="card">
+        <form class="simulacao_formulario" action="https://formsubmit.co/ela.tavares2020@gmail.com"  method="POST">
             <div class="formulario_nome_email_telefone">
                 <div class="label-float">  
                     <label for="nome">Nome:*</label>  
@@ -373,24 +373,30 @@
             </div>
 
             <div class="label_float cltfgts">
-                <label class="cltfgts_label" for="">Possui 36 meses sob regime CLT e contribuição com FGTS ? ( pode somar todos períodos que tenha trabalhado, mesmo não sendo no emprego atual; Se for com mais de um participante no financiamento, um dos participantes tendo comprovado já consegue o beneficio de desconto de 0,5% e a liberação para utilizar o FGTS ** Seguindo as regras do programa) </label> <br>
+                <label class="cltfgts_label" for="">Possui 36 meses sob regime CLT e contribuição com FGTS? ( pode somar todos períodos que tenha trabalhado, mesmo não sendo no emprego atual; Se for com mais de um participante no financiamento, um dos participantes tendo comprovado já consegue o beneficio de desconto de 0,5% e a liberação para utilizar o FGTS ** Seguindo as regras do programa) </label> <br>
                 <input type="radio" name="clt/fgts" id="sim" value="Sim, possuo 36 meses"> <label for="sim">Sim, possuo 36 meses</label> 
                 <input type="radio" name="clt/fgts" id="nao" value="Não, possuo 36 meses" style="margin-top: 5px; margin-left: 3%;"> <label for="nao">Não, possuo 36 meses</label>
             </div>
 
             <div class="label_float data_de_nascimento">
                 <label for="data">Data de Nascimento do participante de maior idade </label>
-                <input type="date" name="data de nascimento">
+                <input type="date" name="data de nascimento participante de maior idade">
+            </div>
+
+            <div class="label_float dependentes">
+                <label for="">Possui dependentes abaixo de 18 anos?</label> <br>
+                <input type="radio" name="dependente" value="Sim"> <label for="dependente">Sim</label> <br>
+                <input type="radio" name="dependente" value="Não" style="margin-top: 5px;"> <label for="dependente">Não</label>
             </div>
 
             <div class="label_float entrada">
-                <label for="">Possui valor para entrada ou valor de FGTS ?</label> <br>
+                <label for="">Possui valor para entrada ou valor de FGTS?</label> <br>
                 <input type="radio" name="entrada" value="Sim , qual valor R$"> <label for="entrada">Sim , qual valor? R$</label> <input type="text" id="entrada" name="valor da entrada" placeholder="Valor de entrada"> <br>
                 <input type="radio" name="entrada" value="Não" style="margin-top: 5px;"> <label for="entrada">Não</label>
             </div>
 
             <div class="label_float primeiro_imovel">
-                <label for="">Primeiro imóvel ?</label> <br>
+                <label for="">Primeiro imóvel?</label> <br>
                 <input type="radio" name="imovel" value="Sim, ainda não possuo imóvel."> <label for="imovel">Sim, ainda não possuo imóvel.</label> <br>
                 <input type="radio" name="imovel" value="Não, já tenho um imóvel." style="margin-top: 5px;"> <label for="imovel">Não, já tenho um imóvel.</label>
             </div>
