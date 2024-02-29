@@ -584,7 +584,7 @@ footer a{
     }
 
     .contato{
-        width: 80%;
+        width: 50%;
         margin-left: 0;
         margin: 0 auto;  
     }
@@ -671,6 +671,10 @@ footer a{
 
     .imoveis_container_imovel{
         margin-bottom: 5%;
+    }
+
+    .contato{
+        width: 80%; 
     }
 
     .whats{
