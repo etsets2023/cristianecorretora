@@ -522,6 +522,11 @@ footer hr{
     display: flex;
 }
 
+.footer_creci{
+    display: flex;
+    flex-direction: column;
+}
+
 .footer_email{
     display: flex;
     gap: 10px;
