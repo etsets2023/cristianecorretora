@@ -318,11 +318,11 @@ main{
 .imoveis_container{
     display: flex;
     flex-flow: row wrap;
-    width: 80%;
+    width: 90%;
     margin: auto;
     justify-content: center;
     align-items: center;
-    gap: 8%;
+    gap: 3%;
 }
 
 .imoveis_container_imovel{
