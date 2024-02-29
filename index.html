@@ -52,7 +52,7 @@
                 <a class="main_button" href="https://wa.me/message/TL3CYF4ZWSIFM1" target="_blank">Entre em contato agora</a>
             </div>
         </div>
-        <form action="" data-anime="left">
+        <form class="contato" action="" data-anime="left">
             <h2>Contato</h2>
             <div class="form_container">
                 <input type="text" placeholder="Nome:">  
@@ -339,10 +339,73 @@
     </section>
     <!----------------------FIM PRONTO PARA MORAR------------------------>
 
+    <section class="simulacao">
+    
+        <h2 style="text-align: center;">Faça agora uma simulação gratuita!</h2>
+        <h3 style="margin-bottom: 30px; text-align: center;">Preencha o Formulário abaixo:</h3>
+        <form class="simulacao_formulario" action="https://formsubmit.co/ela.tavares2020@gmail.com"  method="POST" class="card">
+            <div class="formulario_nome_email_telefone">
+                <div class="label-float">  
+                    <label for="nome">Nome:*</label>  
+                    <input type="text" id="nome" name="nome" required>      
+                </div>
+                <div class="label-float"> 
+                    <label for="email">E-mail:*</label> 
+                    <input type="email" id="email" name="email" required>  
+                </div>
+                <div class="label-float"> 
+                    <label for="telefone:">Telefone:*</label> 
+                    <input type="text" id="telefone" name="telefone" required> 
+                </div>
+            </div>
+
+            
+            <div class="label-float">
+                <label for="renda">Valor de renda bruta individual ou familiar. A referência de renda bruta no caso de Holerite é o total de Proventos/Vencimentos; Em caso de renda informal informar a média de renda mensal </label>
+                <select name="renda" id="renda" class="renda">
+                    <option selected disabled value="">Selecione</option>
+                    <option value="R$1.500,00 à R$2.500,00" id="renda" name="renda">R$1.500,00 à R$2.500,00</option>
+                    <option value="R$2.500,00 à R$3.500,00" id="renda" name="renda">R$2.500,00 à R$3.500,00</option>
+                    <option value="R$4.500,00 à R$5.500,00" id="renda" name="renda">R$4.500,00 à R$5.500,00</option>
+                    <option value="R$5.000,00 à R$6.500,00" id="renda" name="renda">R$5.000,00 à R$6.500,00</option>
+                    <option value="R$6.500,00 à R$8.000,00" id="renda" name="renda">R$6.500,00 à R$8.000,00</option>
+                </select>
+            </div>
+
+            <div class="label_float cltfgts">
+                <label class="cltfgts_label" for="">Possui 36 meses sob regime CLT e contribuição com FGTS ? ( pode somar todos períodos que tenha trabalhado, mesmo não sendo no emprego atual; Se for com mais de um participante no financiamento, um dos participantes tendo comprovado já consegue o beneficio de desconto de 0,5% e a liberação para utilizar o FGTS ** Seguindo as regras do programa) </label> <br>
+                <input type="radio" name="clt/fgts" id="sim" value="Sim, possuo 36 meses"> <label for="sim">Sim, possuo 36 meses</label> 
+                <input type="radio" name="clt/fgts" id="nao" value="Não, possuo 36 meses" style="margin-top: 5px; margin-left: 3%;"> <label for="nao">Não, possuo 36 meses</label>
+            </div>
+
+            <div class="label_float data_de_nascimento">
+                <label for="data">Data de Nascimento do participante de maior idade </label>
+                <input type="date" name="data de nascimento">
+            </div>
+
+            <div class="label_float entrada">
+                <label for="">Possui valor para entrada ou valor de FGTS ?</label> <br>
+                <input type="radio" name="entrada" value="Sim , qual valor R$"> <label for="entrada">Sim , qual valor? R$</label> <input type="text" id="entrada" name="valor da entrada" placeholder="Valor de entrada"> <br>
+                <input type="radio" name="entrada" value="Não" style="margin-top: 5px;"> <label for="entrada">Não</label>
+            </div>
+
+            <div class="label_float primeiro_imovel">
+                <label for="">Primeiro imóvel ?</label> <br>
+                <input type="radio" name="imovel" value="Sim, ainda não possuo imóvel."> <label for="imovel">Sim, ainda não possuo imóvel.</label> <br>
+                <input type="radio" name="imovel" value="Não, já tenho um imóvel." style="margin-top: 5px;"> <label for="imovel">Não, já tenho um imóvel.</label>
+            </div>
+            
+            <div class="container-formulario-botao">
+                <button class="formulario-botao" id="enviar">Enviar</button>
+            </div>
+        </form>
+
+
+    </section>
+
     <footer>
         <div class="hidden footer_container">
             <h2>Cristiane <br> Consultora Imobiliária <span style="font-size: 10px;"> ©2024 </span></h2>
-            <hr>
         </div>
         <div class="hidden footer_container">   
             <a href="#"><i class="bi bi-instagram"></i></a>

@@ -92,7 +92,7 @@ main{
     margin-bottom: 30px;
 }
 
-form{
+.contato{
     background-color: rgb(255, 251, 251, 0.6);
     width: 25%;
     padding-inline: 30px; 
@@ -106,7 +106,7 @@ form{
     border-radius: 16px;
 }
 
-form h2{
+.contato h2{
     text-transform: uppercase;
 }
 
@@ -305,7 +305,9 @@ form h2{
     display: flex;
     flex-flow: row wrap;
     margin-bottom: 100px;
-    margin-top: 100px;  
+    margin-top: 100px;
+    border-top: 1px solid black; 
+    padding-top: 50px; 
 }
 
 .imoveis h2{
@@ -407,6 +409,87 @@ video{
 }
 
 
+.simulacao{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    border-top: 1px solid black;
+    padding-block: 50px;
+}
+
+.simulacao_formulario{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+.label-float{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.formulario_nome_email_telefone{
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+    margin-bottom: 15px;
+}
+
+.formulario_nome_email_telefone input{
+    width: 100%;
+    padding: 8px;
+    outline: none;
+}
+
+.renda{
+    padding: 8px;
+    margin-bottom: 15px;
+}
+
+.cltfgts{
+    margin-bottom: 15px;
+}
+
+
+.data_de_nascimento{
+    margin-bottom: 15px;
+}
+
+.data_de_nascimento input{
+    padding: 8px;
+    outline: none;
+}
+
+.entrada{
+    margin-bottom: 15px;
+}
+
+.entrada input{
+    padding: 8px;
+    outline: none;
+}
+
+.formulario-botao{
+    background-color: yellow;
+    color: black;
+    padding: 20px 50px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 30px;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.formulario-botao:hover{
+    background: black;
+    color: yellow;
+    transition: all .2s ease; 
+}
+
+
 
 footer{
     background: black;
@@ -458,6 +541,7 @@ footer a{
     right: 0;
     z-index: 1;
     
+
 }
 
 
@@ -471,7 +555,7 @@ footer a{
         padding-inline: 30px;         
     }
     
-    form{ 
+    .contato{ 
         width: 30%;
         padding-inline: 40px;     
     }
@@ -495,7 +579,7 @@ footer a{
         margin: 0 auto;
     }
 
-    form{
+    .contato{
         width: 80%;
         margin-left: 0;
         margin: 0 auto;  
@@ -545,6 +629,12 @@ footer a{
         font-size: 1rem;
     }
 
+    .simulacao_formulario{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+    }
+
     footer{
         background: black;
         width: 100%;
@@ -584,9 +674,9 @@ footer a{
         position: fixed;
         bottom: 100px;
         right: 0;
-        z-index: 1;
-        
+        z-index: 1;  
     }
+
 
  
 }
