@@ -626,6 +626,14 @@ footer a{
 }
 
 
+@media (max-width: 780px){
+    .botoes_container button{
+        width: 20%;
+       
+    }
+}
+
+
 @media (max-width: 830px){
     .nav_entreemcontato{
         display: none;
@@ -722,6 +730,13 @@ footer a{
     
 }
 
+@media (max-width: 585px){
+    .botoes_container button{
+        width: 25%;
+       
+    }
+}
+
 
 
 @media (max-width:485px){
@@ -736,6 +751,7 @@ footer a{
     .contato{
         width: 80%; 
     }
+
 
     .whats{
         width: 90px;
