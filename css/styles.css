@@ -690,8 +690,13 @@ footer a{
     .apresentacao h2{
         width: 90%;
         font-size: 1.5rem;
-        margin: 0 auto;
-       
+        margin: 0 auto;   
+    }
+
+    .botoes h2{
+        width: 90%;
+        font-size: 1.5rem;
+        margin: 0 auto; 
     }
 
     .swiper {
