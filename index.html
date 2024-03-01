@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="./css/styles.css">
     <script src="./js/index.js" defer></script>
     <script src="./js/slide.js" defer></script>
+    <script src="./js/filtro.js"></script>
 </head>
 <body id="corpo">
     <header>
@@ -111,8 +112,17 @@
         </div>
     </section>
 
+    <section class="botoes">
+        <h2>NOSSOS EMPREENDIMENTOS</h2>
+        <div class="botoes_container">
+            <button onclick="filterElements('todos')">Todos</button>
+            <button onclick="filterElements('na_planta')">Na Planta</button>
+            <button onclick="filterElements('prontos_para_morar')">Prontos Para Morar</button>
+        </div>
+    </section>
+
     <!----------------------PARA VENDA------------------------->
-    <section class="imoveis">
+    <section class="imoveis todos box">
         <h2>PARA VENDA</h2>
         <div class="imoveis_container">
             <div class="imoveis_container_imovel">
@@ -144,7 +154,7 @@
     <!----------------------FIM PARA VENDA E LOCAÇÃO--------------------->
 
     <!----------------------IMOVEIS NA PLANTA---------------------------->
-    <section class="imoveis">
+    <section class="imoveis todos na_planta box">
         <h2>NA PLANTA</h2>
         <div class="imoveis_container">
 
@@ -264,7 +274,7 @@
     <!----------------------FIM IMOVEIS NA PLANTA------------------------>
 
     <!----------------------PRONTO PARA MORAR---------------------------->
-    <section class="imoveis">
+    <section class="imoveis todos prontos_para_morar box" >
         <h2>PRONTOS PARA MORAR</h2>
         <div class="imoveis_container">
             <div class="imoveis_container_imovel">  
