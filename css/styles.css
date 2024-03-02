@@ -87,6 +87,19 @@ nav h3{
     align-items: center;      
 }
 
+[data-background='um'] {
+    opacity: 3;
+    transition: 2s;
+    background-image: url('../img/condominio_eco_vila_talisia_pronto_para_morar1.jpeg');
+}
+
+[data-background='dois'] {
+    opacity: 3;
+    transition: 2s;
+    background-image: url('../img/condominio_portais_dos_rubis.png');
+}
+
+
 .container_button{
     margin-top: 30px;
     margin-bottom: 30px;

@@ -40,13 +40,13 @@ window.addEventListener('scroll', () =>{
 //ALTERAR BACKGROUND
 setInterval(function mudarBackground(){   
     let background = document.querySelector('.principal')
-   background.style.backgroundImage = "url('../img/pexels-sophie-otto-20348068.jpg')"    
-},8000) 
+   background.style.backgroundImage = "url('../img/condominio_eco_vila_talisia_pronto_para_morar1.jpeg')"    
+},9000) 
 
 setInterval(function mudarBackground2(){
     let background2 = document.querySelector('.principal')
     background2.style.backgroundImage = "url('../img/praia_residencia.jpg')"  
-},9000)
+},10000)
 
 
 
