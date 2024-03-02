@@ -70,8 +70,9 @@ nav h3{
    background-size: cover;
    background-position: center;
    background-repeat: no-repeat;
+   
    /* background-attachment: fixed; */
-   display: flex;   
+    display: flex;   
 }
 
 .main_wrapper{
@@ -85,18 +86,6 @@ nav h3{
     flex-direction: column;
     justify-content: center;
     align-items: center;      
-}
-
-[data-background='um'] {
-    opacity: 3;
-    transition: 2s;
-    background-image: url('../img/condominio_eco_vila_talisia_pronto_para_morar1.jpeg');
-}
-
-[data-background='dois'] {
-    opacity: 3;
-    transition: 2s;
-    background-image: url('../img/condominio_portais_dos_rubis.png');
 }
 
 
