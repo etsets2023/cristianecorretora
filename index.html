@@ -15,7 +15,7 @@
     <script src="./js/slide.js" defer></script>
     <script src="./js/filtro.js"></script>
 </head>
-<body id="corpo">
+<body id="corpo" onload="mudarBackground()">
     <header>
         <nav>
             <div>
@@ -31,7 +31,7 @@
         </nav>
     </header>
 
-    <main>
+    <main class="principal">
           <div class="main_wrapper" data-anime="left">
             <div class="main_container">
                 <h3>Missão</h3>
@@ -113,7 +113,7 @@
     </section>
 
     <section class="botoes">
-        <h2>Nossos Empreendimentos</h2>
+        <h2>Nossos Empreendimento</h2>
         <!---- <div class="botoes_container">
             <button onclick="filterElements('todos')">Todos</button>
             <button onclick="filterElements('na_planta')">Na Planta</button>

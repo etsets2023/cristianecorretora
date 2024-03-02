@@ -65,11 +65,12 @@ nav h3{
     transition: all .2s;
 }
 
-main{
+.principal{
     background-image: url('../img/praia_residencia.jpg');
    background-size: cover;
    background-position: center;
    background-repeat: no-repeat;
+   background-attachment: fixed;
    /* background-attachment: fixed; */
    display: flex;   
 }
