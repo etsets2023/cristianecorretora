@@ -70,7 +70,6 @@ nav h3{
    background-size: cover;
    background-position: center;
    background-repeat: no-repeat;
-   background-attachment: fixed;
    /* background-attachment: fixed; */
    display: flex;   
 }
