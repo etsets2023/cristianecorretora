@@ -269,8 +269,10 @@ nav h3{
 }
 
 .swiper {
-    width: 35%;
-    height: 480px; 
+    width: 35%;   
+}
+.swiper-wrapper{
+    height: 450px;
 }
 
   .swiper-slide {
@@ -285,7 +287,8 @@ nav h3{
   .swiper-slide img {
     display: block;
     width: 60%;
-    height: 380px; 
+    height: 400px;
+    
   }
 
   .slide1{
@@ -339,7 +342,7 @@ nav h3{
     background-color:white ;
 }
 
-.imoveis_container_imovel .swiper:hover{
+.imoveis_container_imovel:hover{
     box-shadow:  5px 5px 5px 5px gray;
     transition: all .2s ease;
 }
@@ -704,6 +707,7 @@ footer a{
     .swiper {
         width: 80%;
         height: 480px; 
+        /* border: 1px solid red; */
     }
     
 
