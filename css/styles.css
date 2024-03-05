@@ -339,7 +339,7 @@ nav h3{
     background-color:white ;
 }
 
-.imoveis_container_imovel:hover{
+.imoveis_container_imovel .swiper:hover{
     box-shadow:  5px 5px 5px 5px gray;
     transition: all .2s ease;
 }

@@ -11,9 +11,11 @@
 
 
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/slide_vila_talisia.css">
     <script src="./js/index.js" defer></script>
     <script src="./js/slide.js" defer></script>
     <script src="./js/filtro.js"></script>
+
 </head>
 <body id="corpo" onload="mudarBackground()">
     <header>
@@ -256,8 +258,34 @@
         <h2>PRONTOS PARA MORAR</h2>
         <div class="imoveis_container">
             <div class="imoveis_container_imovel">  
-                    <img src="./img/condominio_eco_vila_talisia_pronto_para_morar1.jpeg" alt="">     
-                <div class="imoveis_container_texto">
+                <div class="imoveis_container_imovel swiper vila_talisia">
+                    <div class="swiper-wrapper">    
+                          <div class="swiper-slide">
+                            <img style="position: relative;" src="./img/condominio_eco_vila_talisia_pronto_para_morar1.jpeg" alt="">
+                            <a class="link_swiper_imovel" href="img/condominio_eco_vila_talisia_pronto_para_morar1.jpeg" target="_blank">Ampliar a foto</a>
+                          </div> 
+                          <div class="swiper-slide">
+                            <img style="position: relative;" src="./img/condominio_eco_vila_talisia_pronto_para_morar2.jpeg" alt="">
+                            <a class="link_swiper_imovel" href="img/condominio_eco_vila_talisia_pronto_para_morar2.jpeg" target="_blank">Ampliar a foto</a>
+                          </div> 
+                          <div class="swiper-slide">
+                            <img style="position: relative;" src="./img/condominio_eco_vila_talisia_pronto_para_morar3.jpeg" alt="">
+                            <a class="link_swiper_imovel" href="img/condominio_eco_vila_talisia_pronto_para_morar3.jpeg" target="_blank">Ampliar a foto</a>
+                          </div> 
+                          <div class="swiper-slide">
+                            <img style="position: relative;" src="./img/condominio_eco_vila_talisia_pronto_para_morar4.jpeg" alt="">
+                            <a class="link_swiper_imovel" href="img/condominio_eco_vila_talisia_pronto_para_morar4.jpeg" target="_blank">Ampliar a foto</a>
+                          </div> 
+                          <div class="swiper-slide">
+                            <img style="position: relative;" src="./img/condominio_eco_vila_talisia_pronto_para_morar5.jpeg" alt="">
+                            <a class="link_swiper_imovel" href="img/condominio_eco_vila_talisia_pronto_para_morar5.jpeg" target="_blank">Ampliar a foto</a>
+                          </div> 
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+                </div>     
+                <div class="imoveis_container_texto_swiper">
                     <p class="imoveis_paragrafo" style="color: black; font-size: 1rem; font-weight: 300;">
 
                         Apartamento no Condomínio Eco Vila Talisia - Hortolândia/SP <br>
@@ -444,6 +472,25 @@
   
     <!--SWIPER JS @11.0.7-->
  <script src="./js/swiper-bundle.min.js"></script>
+
+ <script>
+     var swiper = new Swiper(".vila_talisia", {
+    pagination: {
+      el: ".swiper-pagination",
+      type: "progressbar",
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+    autoplay:{
+        delay:5000,
+        disableInteraction: false,
+    },
+    mousewheel: true,
+    keyboard: true,
+  });
+ </script>
 </body>
 </html>
 

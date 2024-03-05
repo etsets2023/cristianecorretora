@@ -1,4 +1,3 @@
-
 //SCROLL ESQUERDA PRA DIREITA//
 const myObserver = new IntersectionObserver ((entries) => {
     // console.log(entries)
@@ -13,6 +12,7 @@ const myObserver = new IntersectionObserver ((entries) => {
 
 const elements = document.querySelectorAll('.hidden')
 elements.forEach((element) => myObserver.observe(element))
+//FIM SCROLL ESQUERDA PRA DIREITA//
 
 
 //DATA ANIME PARA MAIS ELEMENTOS//
@@ -35,6 +35,7 @@ animeScroll()
 window.addEventListener('scroll', () =>{
     animeScroll()
 })
+//FIM DATA ANIME PARA MAIS ELEMENTOS//
 
 
 //ALTERAR BACKGROUND
@@ -47,6 +48,7 @@ setInterval(function mudarBackground2(){
     let background2 = document.querySelector('.principal')
     background2.style.backgroundImage = "url('../img/praia_residencia.jpg')"  
 },10000)
+//FIM ALTERAR BACKGROUND
 
 
 
